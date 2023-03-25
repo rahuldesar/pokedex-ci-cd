@@ -14,6 +14,8 @@ jobs:
         run: |
           echo "Hello World!"
       - name: Show date
+        run: |
           date
       - name: show ls
+        run: |
           ls -l
