@@ -31,7 +31,6 @@ const App = () => {
       <Switch>
         <Route exact path="/">
           <PokemonList pokemonList={pokemonList} />
-          Should work now.
         </Route>
         <Route
           path="/pokemon/:name"
