@@ -1,0 +1,12 @@
+name: Deployment Pipeline
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  simple_deployment_pipeline:
+    runs_on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
